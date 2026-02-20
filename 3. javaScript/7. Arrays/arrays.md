@@ -307,39 +307,3 @@ Use case:
 5. forEach
 6. find
 7. reduce
-
----
-
-# 8. Suggested Teaching Flow (1 Hour Class)
-
-1. Array introduction
-2. Index explanation
-3. Length explanation
-4. Loop with index and length
-5. Basic methods (push, pop, shift, unshift)
-6. Advanced methods (map, filter, find)
-7. reduce at the end
-
----
-
-# 9. Practice Questions
-
-1. Ek array banao jisme 5 numbers hon.
-2. Last number print karo using length.
-3. Ek number add karo using push.
-4. Sirf even numbers filter karo.
-5. Sab numbers ko double karo using map.
-6. Array ka total sum nikalo using reduce.
-
----
-
-# Final Concept Summary
-
-* Array multiple values store karta hai
-* Index position batata hai aur 0 se start hota hai
-* Length total elements batata hai
-* Last index = length - 1
-* Loop mein hamesha i < arr.length use karo
-* map, filter aur reduce modern JavaScript ke core methods hain
-
-Agar chaho to main isko Markdown file format mein headings aur structure ke saath GitHub ready version bhi bana doon.

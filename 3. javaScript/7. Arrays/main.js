@@ -88,8 +88,21 @@
 
    
 
+// array slice method 
 var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
 var citrus = fruits.slice(0, 5);
 alert(citrus);
 // Output: ["Orange", "Lemon"] 
 // The original array is unchanged: ["Banana", "Orange", "Lemon", "Apple", "Mango"]
+
+
+// array splice method
+var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+fruits.splice(2, 0, "Lemon", "Kiwi");
+// Output: ["Banana", "Orange", "Lemon", "Kiwi", "Lemon", "Apple", "Mango"] 
+// The original array is modified: ["Banana", "Orange", "Lemon", "Kiwi", "Lemon", "Apple", "Mango"]
+
+
+// var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+// fruits.splice(3,0,"kiwi");
+// alert(fruits);
