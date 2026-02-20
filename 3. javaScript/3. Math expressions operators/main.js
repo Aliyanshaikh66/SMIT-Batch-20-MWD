@@ -230,4 +230,10 @@
 // }
 
 
+// concadination 
+var user1 = "Adnan";
+var user2 = "Ashraf";
+var user3 = user1 + user2;
+console.log(user3);
+
 

@@ -2,7 +2,7 @@
     background-color: black;
 } */
 
-h1{
+/* h1{
     background-color: red;
     color: blue;
 }
@@ -19,4 +19,271 @@ a{
 .green{
     background-color: red;
     color: yellow;
+} */
+/* p{
+    color: yellow;
 }
+
+ol>.list{
+    color: blueviolet;
+}
+li{
+    color: green;
+    opacity: 0.5;
+} */
+    /* color: rgb(255, 100, 20); RGB Method  */
+    /* color: rgb(255, 100, 20 ,0.5); RGB Method with opecity */
+    /* color: aquamarine;  Direct Name   */
+    /* color: #ff9497; Color code  */
+
+/* p{
+  font-family: "Playwrite NZ Basic Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
+/* color: yellow; */
+/* font-family: Arial, Helvetica, sans-serif; */
+
+/* img{
+    height: 400px;
+    width: 30%;
+    vertical-align: top;
+
+}
+
+p{
+    font-size: 10px;
+    font-weight: bold;
+    font-style: oblique;
+    text-transform: lowercase;
+    text-decoration: none;
+    text-align: justify;
+}
+p:first-letter {
+font-size: 200%;}
+
+p:first-line {
+font-weight: bold;
+}
+
+
+h2{
+    font-size: 80%;
+}
+
+h3{
+    font-size: 1.8em;
+} */
+/* h1{
+    text-align: center;
+    background-color: rgb(255, 255, 47);
+    text-shadow: 1px 1px 1px grey;
+    } */
+    
+
+/* pseudo Class and Element  */
+
+/* a:link {
+color: deeppink;
+text-decoration: none;
+}
+
+a:visited {
+color: black;
+}
+
+a:hover {
+color: deeppink;
+text-decoration: line-through;
+border: 2px solid;
+border-radius: 10px;
+background-color: blue;
+}
+
+a:active {
+color: darkcyan;
+} */
+
+/* body{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: grey;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    }
+    
+a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 20px;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    }    
+    
+.nav-items{
+        margin-top: 15px;
+
+    } */
+    
+/* .logo>h2{
+    background-color: white;
+        color: black;
+        float: left;
+        margin-left: 20px;
+        margin-top: -5px;
+        border-radius: 5px;
+    } */
+
+
+    
+    
+    /* .nav>a{
+       text-decoration: none;
+       color: white;
+       background-color: black;
+       padding: 10px;
+       margin-top: 100px;
+       margin-left: 20px;
+       border-radius: 5px;
+       } */
+    /* .container{
+        border: 2px solid black;
+    background-color: green;
+    height: 200px;
+    width: 400px;
+    padding-top: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.container>h1{
+    color: rebeccapurple;
+    text-decoration: underline;
+} */
+
+/* body{
+    background-color: black;
+}
+
+.head{
+    background-color: rgb(227, 54, 54);
+    height: 500px;
+    width: 420px;
+    padding-top: 10px;
+    margin: 10px;
+} */
+
+/* p{
+    border: 5px solid black;
+    border-style: dotted;
+    border-color: red ;
+    padding: 10px;
+    background-color: yellowgreen;
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    margin-left: 10px;
+    
+    } */
+    
+/*     
+    body{
+        
+        padding: 0;
+        margin: 0;
+    }
+    .nav{
+        text-align: center;
+        padding-top: 15px;
+        background-color: grey;
+        height: 50px;
+    }
+       
+    li{
+        display: inline;
+        margin-left: 30px;
+    }
+    a{
+        text-decoration: none;
+        text-align: center;
+        font-size: 30px;  
+    } */
+    
+    /* img{
+        height: 250px;
+    width: 380px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+h1{
+    margin-left: 10px;
+    margin-top: -5px;
+    }
+h4{
+    margin-left: 250px;
+    margin-top: -45px;
+    text-decoration: line-through;
+}
+/* .list{
+    visibility: hidden;
+} */
+/* p{
+    border: 5px solid black;
+    border-style: outset    ;
+    margin-left: 10px;
+    width: 50%;
+    height: 200px;
+    /* border-width: 5px 4px 15px 5px; */
+    /* border-color: red green blue yellow; */
+    /* overflow: scroll; */
+    /* text-align: justify; */
+    
+
+/* .main{
+    background-color: peru;
+    height: 300px;
+    width: 400px;
+    padding-top: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.main:hover{
+    
+    transform: scale(1.0);
+    color: black;
+    text-shadow: 1px 1px 1px grey;
+    box-shadow: 10px 10px 44px 19px rgba(169, 104, 104, 0.31);
+    } */
+
+
+body{
+    background-image: url(./image.jpg);
+    background-repeat: no-repeat;
+} 
+
+fieldset {
+width: 350px;
+border: 5px solid #dcdcdc;
+border-radius: 10px;
+padding: 20px;
+text-align: center;}
+legend {
+background-color: #efefef;
+border: 2px solid #dcdcdc;
+border-radius: 10px;
+padding: 20px 50px;
+text-align: center;
+text-transform: capitalize;}
+
+input{
+    cursor: ;
+}
+
+
+
