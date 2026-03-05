@@ -3,8 +3,9 @@
   grid-template-areas:
     "header header header"
     "menu content menu1"
+    "menu content menu1"
     "footer footer footer";
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 50fr 15fr 10fr;
   gap: 10px;
   background-color: violet;
   padding: 5px;
@@ -47,4 +48,36 @@
 .container>.menu1{
     border-radius: 10px;
     background-color: green;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.content>img{
+  width: 200px;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .container{
+    display: grid;
+    background-color: blue;
+  }
+  .content{
+    flex-direction: column; /* mobile me image niche aa jayegi */
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-areas:
+      "header"
+      "menu1"
+      "content"
+      "menu"
+      "footer";
+
+    grid-template-columns: 1fr;
+  }
 }
