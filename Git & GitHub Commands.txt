@@ -12,8 +12,8 @@ Git & GitHub Commands
 
 (Step-3)
 -git add .
--(git config --global "username") one time
--(git config --global "email") one time
+-(git config --global user.name "username" one time
+-(git config --global user.email "email" one time
 -git add .
 -git commit -m "first-commit"
 -git push
