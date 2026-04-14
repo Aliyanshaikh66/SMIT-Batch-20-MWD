@@ -231,9 +231,52 @@
 
 
 // concadination 
-var user1 = "Adnan";
-var user2 = "Ashraf";
-var user3 = user1 + user2;
-console.log(user3);
+// var user1 = "Adnan";
+// var user2 = "Ashraf";
+// var user3 = user1 + user2;
+// console.log(user3);
 
 
+
+// var num2 = prompt("Enter obtained marks");
+// var num =  850;
+// var percentage = (num2 * 100);
+// var result = percentage / num;
+// alert(result + "%");
+
+
+
+
+// var num = 20;
+// var num2 = 10;
+// var newnum = num + num2;
+// var newnum2 = newnum--;
+// console.log(newnum2);
+
+// Bodmas Rule
+// Brakets
+// Powers
+// Division and Multiplication
+// Addition and Subtraction
+// var num = 20 + 10 * 2 - 5 / 5;
+// console.log(num);
+
+// 1
+// 20
+// 40
+// 1
+
+
+// var user = "Thank your for your support";
+// var user1 = prompt("Enter your name");
+// var user3 = user + " " + user1 + " " + "...!👍";
+// console.log(user3);
+
+
+// var user0 = "Aliyan";
+// var user1 = "Hanif";
+// var user2 = "Bsheer";
+// var user3 = "Yarin";
+// var user4 = "Hassan";
+// var alluser = prompt(user0 , user1 , user2 , user3 , user4);
+// alert(alluser + " " + "Welcome to our website!");
