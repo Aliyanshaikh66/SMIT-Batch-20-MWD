@@ -11,12 +11,12 @@
 // while loop:
 // Pehle condition check hoti hai
 // Agar condition false ho to loop ek baar bhi nahi chalega
-var username = prompt("Please enter your username:");
-while (username === "admin") {
-    alert("Welcome " + username);
-    break; // loop ko rokne ke liye
-    // username = prompt("Please enter your username:");
-}
+// var username = prompt("Please enter your username:");
+// while (username === "admin") {
+//     alert("Welcome " + username);
+//     break; // loop ko rokne ke liye
+//     // username = prompt("Please enter your username:");
+// }
 
 //  var i = 0;
 //  while (i <= 3) {
@@ -38,7 +38,20 @@ while (username === "admin") {
 
 // do while loop ka example:
 // var user = prompt("Please enter your username:");
+// var age = +prompt("Please enter your age:");
 // do {
-//     alert("Welcome " + user);
+//     alert("Welcome " + user + ", your age is " + age);
 //     break; // loop ko rokne ke liye
-// } while (user !== "admin");
+// } while (user === "admin" && age >= 18);
+
+
+// while (user !== "admin");
+
+
+var username = prompt("Please enter your username:");
+var age = +prompt("Please enter your age:");
+while (username === "admin" && age >= 18) {
+    alert("Welcome " + username + ", your age is " + age);
+    break; // loop ko rokne ke liye
+    // username = prompt("Please enter your username:");
+}
