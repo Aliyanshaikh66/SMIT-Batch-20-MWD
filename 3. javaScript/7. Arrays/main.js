@@ -284,11 +284,69 @@
 // Slice apne starting chor ker baki late ke element copy and count kerta hn or new array return kerta hn
 // or original array ko change nahi kerta
 
-let cars = ["Toyota", "Honda", "BMW", "Mercedes", "Audi", "Lexus", "Nissan"];
-let newCars = cars.slice(1, 5);
-console.log(newCars);
+// let cars = ["Toyota", "Honda", "BMW", "Mercedes", "Audi", "Lexus", "Nissan"];
+// let newCars = cars.slice(1, 5);
+// console.log(newCars);
+
 
 // console.log(cars.indexOf("Honda")); // Output: 0
 // console.log(cars.indexOf("Honda")); // Output: 1
 // console.log(cars.indexOf("BMW")); // Output: 2
 // console.log(cars.indexOf("Mercedes")); // Output: 3
+
+
+// Chapter No:15 Arrays
+
+// Array push and Pop Method 
+// let cars = ["Toyota", "Honda", "BMW", "Mercedes"];
+// let userCar = prompt("Enter your car brand");
+// cars.push(userCar);
+// console.log(cars);
+// cars.pop();
+// console.log(cars);
+
+
+// Shift and Unshift Method
+
+// let fruits = ["Apple", "Banana", "Mango"];
+// let userFruit = prompt("Enter a fruit name");
+// fruits.unshift(userFruit);
+// console.log(fruits);
+// fruits.shift();
+// console.log(fruits);
+
+// slice and splice Method
+
+//slice method
+// value 1 = kud ko chor kar baki se start counting hoti hn 
+// value 2 = last element tak value return kerta hn jo b number ho 
+
+// let fruits = ["Apple", "Banana", "Mango", "Orange", "Lemon", "Pineapple"];
+// let findFruits = fruits.slice(0, 6); //legth 6
+// console.log(findFruits);
+
+
+// console.log(fruits);
+// fruits.slice(2, 5);
+// console.log(fruits);
+
+//splice method
+// value 1 = own counting start 
+// value 2 = number of element to remove
+
+// let fruits = ["Apple", "Banana", "Mango", "Orange", "Lemon", "Pineapple"];
+// fruits.splice(1, 2, "grapes", "kiwi"); // starting index, number of elements to remove, element to add
+// console.log(fruits[3], fruits[4]);
+
+
+
+// let users = ["Basheer", "Faisal", "Hammad", "Nasir","hanif", "jawad"];
+// let newUsers = users.slice(1, 4); // starting index, ending index (excluding the ending index)
+// console.log(newUsers);
+
+// let users = ["Basheer", "Faisal", "Hammad", "Nasir","hanif", "jawad"];
+// users.splice(2, 0, "Yasin"); // starting index, number of elements to remove, element to add
+// console.log(users);
+
+
+

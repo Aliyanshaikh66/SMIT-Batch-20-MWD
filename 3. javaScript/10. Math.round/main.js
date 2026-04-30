@@ -72,6 +72,37 @@
 // console.log(dDiff);
 
 
-var msDiff = new Date("June 30, 2035").getTime() - new Date().getTime();
-var daysTillDoom = Math.floor(msDiff / (1000 * 60 * 60 * 24));
-console.log(daysTillDoom);
+// var msDiff = new Date("May 27, 2026").getTime() - new Date().getTime();
+// var daysTillDoom = Math.floor(msDiff / (1000 * 60 * 60 * 24));
+// console.log(daysTillDoom);
+
+// set year
+// let set = new Date();
+// let setnew = set.setMonth(2026)
+// console.log(setnew);
+
+
+// let gmt = new Date();
+// console.log(gmt);
+
+// let gmtstring = gmt.toString();
+// let short = gmtstring.slice(4, 15);
+// // let short = gmtstring.charAt(); // Not Work
+// console.log(short);
+// console.log(gmtstring.length);
+
+// var rightNow = new Date();
+// var theDay = rightNow.getDay()
+// let dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+// let now = new Date();
+// let din = now.getDay();
+// let nameOfToday = dayNames[din]
+// console.log(nameOfToday);
+// let now = new Date();
+// let test = now.getMinutes();
+// console.log(test);
+
+
+let num = 10
+let num2 = "20"
+console.log(num + num2);

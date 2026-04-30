@@ -19,7 +19,7 @@
 //     // console.log(greet);
 // }
 // user("Hello" + " " + name);   
-// // console.log(user);
+// console.log(user);
 
 // var num_1 = +prompt("Enter first number");
 // var num_2 = +prompt("Enter second number");
@@ -102,3 +102,119 @@
 // }
 // user();
 
+// function time(){
+//     let now = new Date();
+//     let theHr = now.getHours();
+//     let theMin = now.getMinutes();
+//     // alert("Current time: "+ theHr + ":" + theMin);
+//     let storetime = "Current time: "+ theHr + ":" + theMin;
+//     console.log(storetime);
+// }
+// time();
+
+// console.log();
+
+// let now = new Date();
+// console.log(now);
+
+
+// function greetuser(){
+//     alert("Hello World");
+// }
+// greetuser('Hello Karachi');
+// let persentage = prompt("Enter Your Percentage");
+// function percentage(){
+//     if (persentage > 59 && persentage <= 69){
+//         console.log("Passed");
+        
+//     }else{
+//         return "Failed"
+//     }
+// }
+// percentage();
+
+// let calcShip = 500;
+// function calcTot(price) {
+//  return price + calcShip(price);
+//  }
+
+// clear for funtion return concept and with document.get element by id 
+// let greet = prompt("enter your name")
+// function greetuser(greet){
+//     console.log(greet)
+// }
+// greetuser(greet);
+// greet user concept 
+
+// function greetUser(name) {                     // <-- yeh parameter hai
+//     console.log("Hello " + name);
+// }
+
+// greetUser("Ali"); // <-- yeh argument hai
+
+// function num(){ 
+//     let a = 5;
+//     let b = 10;
+
+//     if (a < b){
+//         return "condition done"
+//     }
+
+// }
+// let result = num();
+// console.log(result);
+
+
+
+
+// return example 
+// let age = Number(prompt("Enter your age"));   //argument
+// function users(age) {                       // parameter
+//     if (age >= 18) {
+//        return "Eligible";
+//     } else {
+//         return "Not Eligible";
+//     }
+// }
+// // Method 01
+// let result = users(age);
+// console.log(result);
+
+// Method 02
+// console.log(users(age));
+
+
+
+// console.log(users(age));
+
+// function afnan(name) {   // parameter
+//     return "Hello " + name;
+// }
+
+// console.log(afnan("Ali")); // argument
+
+
+// let user = prompt("Enter Your Name");
+// console.log(user);
+
+
+
+
+// local function 
+
+// function user(){
+//         let name = "Afnan"
+//         return "Afnan Here...!"
+// }
+// let result = user()
+// console.log(result);
+
+//user();
+
+
+// global Function 
+// let name = "Afnan"
+// console.log(name);
+// function user(){
+// }
+// user();
