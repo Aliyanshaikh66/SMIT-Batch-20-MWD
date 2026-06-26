@@ -28,18 +28,43 @@
 
 // switch case Statements
 
-var Months = Number(prompt("Enter a month number (1-12):"));
-switch (Months) {
-    case 1:
-        console.log("January");
-        break;
-    case 2:
-        console.log("February");
-        break;
-    case 3:
-        console.log("March");
-        break;
-    // ... more cases
-    default:
-        console.log("Invalid month");
-}
+// var Months = Number(prompt("Enter a month number (1-12):"));
+// switch (Months) {
+//     case 1:
+//         console.log("January");
+//         break;
+//     case 2:
+//         console.log("February");
+//         break;
+//     case 3:
+//         console.log("March");
+//         break;
+//     // ... more cases
+//     default:
+//         console.log("Invalid month");
+// }
+
+// function user(){
+//     let result = "65%"
+//     console.log(result);
+    
+// }
+
+// let names = prompt("Enter Your Name...!")
+// switch (names){
+//     case  "adnan":
+//     user();
+//     break;
+//     case "jawad":
+//     alert("welcome jawad")
+//     break;
+//     case "Hanif":
+//     alert("welcome Hanif")
+//     break;
+//     default :
+//     alert("Not Match..!")
+// }
+
+// switch = if 
+// case   = elseif
+// default = else

@@ -1,7 +1,7 @@
 // let pass = prompt("Enter your password");
 // var password = +"12345";
 
-const { createRef } = require("react");
+// const { createRef } = require("react");
 
 // if (pass === password) {
 //     console.log("Login Sucessfull");
@@ -107,21 +107,21 @@ const { createRef } = require("react");
 // }
 // checkAddress(email)
 
-function fillCity(){
-    let enterzip = document.getElementById("zip").value;
-    switch(enterzip) {
-        case "75000":
-            cityName = "Karachi";
-            break;
-        case "75001":
-            cityName = "Lahore";
-            break;    
-            // document.getElementById("city").value = "New York";
-        // Add more cases for other zip codes
-    }
-    document.getElementById("city").value = cityName;
+// function fillCity(){
+//     let enterzip = document.getElementById("zip").value;
+//     switch(enterzip) {
+//         case "75000":
+//             cityName = "Karachi";
+//             break;
+//         case "75001":
+//             cityName = "Lahore";
+//             break;    
+//             // document.getElementById("city").value = "New York";
+//         // Add more cases for other zip codes
+//     }
+//     document.getElementById("city").value = cityName;
 
-}
+// }
 
 
 // Assignment 1: Create a simple login form that prompts the user for a username and password. Validate the input and display an appropriate message based on whether the login is successful or not.
@@ -130,3 +130,58 @@ function fillCity(){
 
 // password creater
 // Assignment 3: Create a form that get user country,city and state information base on zip code with dropdown.
+
+
+// chapter No : 45 (Event Links):
+
+// function submit(){
+//     let user = prompt("enter your name..!"); //local
+//     console.log(user);
+// }
+
+
+// assignment @ is requried condition 
+// function checkAddress(fieldId) {
+//  if (document.getElementById(fieldId).value === "@") {
+//  alert("Email address required.");
+//  }
+//  }
+
+
+// chapter 50 
+
+// function fillCity() {
+//  var cityName;
+//  var zipEntered = document.getElementById("zip").value;
+//  switch (zipEntered) {
+//  case "74500" :
+//  cityName = "Malir";
+//  break;
+//  case "74501" :
+//  cityName = "Hydrabad";
+//  break;
+//  case "75400" :
+//  cityName = "karachi";
+//  }
+ 
+//  document.getElementById("city").value = cityName;
+//  }
+
+
+// function expandLoris() {
+//   var expandedParagraph = "Slow lorises are a group of several species of strepsirrhine primates which make up the genus Nycticebus. They have a round head, narrow snout, large eyes, and a variety of distinctive coloration patterns that are species-dependent. The hands and feet of slow lorises have several adaptations that give them a pincer-like grip and enable them to grasp branches for long periods of time. Slow lorises have a toxic bite, a rare trait among mammals.";
+  
+//   document.getElementById("slowLoris").innerHTML = expandedParagraph;
+// }
+
+// function travel(){
+//   var dis = "I am going to at Karachi..!"
+//   var image = '<br><img src="./car_image 2.jpg" width="300">';
+//   document.getElementById("enjoy"). innerHTML = dis +image;
+// }
+
+// let link = window.location.href="https://www.openai.com"
+function changeurl(){
+  // _window.location.href="https://www.nvidia.com"
+  window.open('https://www.google.com')
+}
